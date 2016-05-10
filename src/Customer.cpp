@@ -106,3 +106,8 @@ double Customer::amountFor(const Rental&r) const
         }
 	return thisAmount;
 }
+
+void Customer::outputCustomerStatement(Customer customer)
+{
+	std::cout << customer.statement();
+}
