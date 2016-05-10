@@ -28,7 +28,8 @@ public:
     std::string statement() const;
 	
 	double Customer::amountFor(const Rental&r) const;
-
+	
+	void Customer::outputCustomerStatement(Customer customer);
 
 private:
     std::string name;

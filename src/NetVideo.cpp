@@ -26,7 +26,7 @@ int main() {
     customer.addRental(r2);
 
     // Output customer statement
-    std::cout << customer.statement();
-
+	
+	outputCustomerStatement(customer)
     return 0;
 }
